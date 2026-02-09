@@ -1,29 +1,11 @@
-# BDO Boss Timer Desktop Widget (Tauri)
+# BDO Boss Timer Desktop Widget
 
 A lightweight, native desktop widget for the Garmoth BDO Boss Timer with system tray integration.
-
-## Why Tauri?
-
-- ✨ **True portable executable** - No extraction or installation needed
-- 📦 **Tiny size** - ~3-5MB vs 150MB+ Electron
-- ⚡ **Faster startup** - Native binary, not a bundled Chromium
-- 💾 **Lower memory usage** - Uses system WebView instead of bundled browser
-
-## Features
-
-- 🎯 Frameless, translucent window
-- 📍 Remembers position and size between sessions
-- 📌 Always-on-top toggle via system tray
-- 🎨 Floating close button
-- 🖱️ Draggable window
-- 🔄 Resizable
-- 💾 Persistent settings storage
 
 ## Prerequisites
 
 ### Windows
 Install Rust from: https://www.rust-lang.org/tools/install
-
 That's it! The Windows WebView2 is already installed on Windows 10/11.
 
 ### Linux
@@ -70,7 +52,7 @@ The executable will be in:
 The built executable is:
 - **Portable** - Just copy the .exe anywhere and run it
 - **No extraction** - Runs immediately with no setup
-- **Small** - Only 3-5MB instead of 150MB+
+- **Small** - Only 3-5MB
 - **Fast** - Native binary, not JavaScript
 
 ## Usage
@@ -78,8 +60,6 @@ The built executable is:
 ### Controls
 
 - **Drag**: Click and drag anywhere on the window to move it
-- **Resize**: Drag from the bottom-right corner
-- **Close Button (×)**: Red button in top-right (appears on hover) - closes the app completely
 - **System Tray Icon**: Click the tray icon to show/hide
   - **Right-click** for menu:
     - **Always on Top**: Keep widget above all windows
@@ -110,7 +90,7 @@ Edit `src-tauri/src/main.rs` for advanced features
 
 ## Notes
 
-- Window position and size are automatically saved in `settings.json`
+- Window position is automatically saved in `settings.json`
 - Always-on-top setting persists between sessions
 - The window stays in the system tray when closed
 - Click the tray icon to show/hide the window
