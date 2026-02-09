@@ -1,0 +1,19 @@
+[package]
+name = "bdo-timer-widget"
+version = "1.0.0"
+description = "BDO Boss Timer Desktop Widget"
+authors = ["you"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.1", features = ["tray-icon", "image-png"] }
+tauri-plugin-store = "2.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

@@ -1,0 +1,14 @@
+{
+  "name": "bdo-timer-widget",
+  "version": "1.0.0",
+  "description": "BDO Boss Timer Desktop Widget",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0"
+  }
+}
