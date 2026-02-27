@@ -1,6 +1,8 @@
 # BDO Boss Timer Desktop Widget
 
 A lightweight, native desktop widget for the Garmoth BDO Boss Timer with system tray integration.
+<img width="642" height="197" alt="image" src="https://github.com/user-attachments/assets/7d4e0c28-044d-4c9e-b7fa-9297d26ef85b" />
+<img width="218" height="189" alt="image" src="https://github.com/user-attachments/assets/8f6d8026-acf6-4695-bf66-a1f76e15eed5" />
 
 ## Prerequisites
 
