@@ -6,7 +6,6 @@ A lightweight, native desktop widget for the Garmoth BDO Boss Timer with system 
 
 ### Windows
 Install Rust from: https://www.rust-lang.org/tools/install
-That's it! The Windows WebView2 is already installed on Windows 10/11.
 
 ### Linux
 ```bash
